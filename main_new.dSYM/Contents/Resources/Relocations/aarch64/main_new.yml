@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/admin/Documents/Programming/My Projects/dsa-mini-project/crypto-mini-project/main_new'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _sha256_init, symObjAddr: 0x0, symBinAddr: 0x10000211C, symSize: 0xA0 }
+  - { offsetInCU: 0x59, offset: 0x59, size: 0x8, addend: 0x0, symName: _k, symObjAddr: 0x1CB0, symBinAddr: 0x100003E68, symSize: 0x0 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _bin_to_hex, symObjAddr: 0x930, symBinAddr: 0x100002A4C, symSize: 0xB4 }
+  - { offsetInCU: 0xA6, offset: 0xA6, size: 0x8, addend: 0x0, symName: _bin_to_hex.lut, symObjAddr: 0x1DB0, symBinAddr: 0x100004070, symSize: 0x0 }
+  - { offsetInCU: 0x216, offset: 0x216, size: 0x8, addend: 0x0, symName: _sha256_init, symObjAddr: 0x0, symBinAddr: 0x10000211C, symSize: 0xA0 }
+  - { offsetInCU: 0x23A, offset: 0x23A, size: 0x8, addend: 0x0, symName: _sha256_update, symObjAddr: 0xA0, symBinAddr: 0x1000021BC, symSize: 0x1B4 }
+  - { offsetInCU: 0x2A4, offset: 0x2A4, size: 0x8, addend: 0x0, symName: _sha256_calc_chunk, symObjAddr: 0x254, symBinAddr: 0x100002370, symSize: 0x440 }
+  - { offsetInCU: 0x38F, offset: 0x38F, size: 0x8, addend: 0x0, symName: _sha256_finalize, symObjAddr: 0x694, symBinAddr: 0x1000027B0, symSize: 0x13C }
+  - { offsetInCU: 0x3CF, offset: 0x3CF, size: 0x8, addend: 0x0, symName: _sha256_read, symObjAddr: 0x7D0, symBinAddr: 0x1000028EC, symSize: 0xEC }
+  - { offsetInCU: 0x40F, offset: 0x40F, size: 0x8, addend: 0x0, symName: _sha256_read_hex, symObjAddr: 0x8BC, symBinAddr: 0x1000029D8, symSize: 0x74 }
+  - { offsetInCU: 0x44F, offset: 0x44F, size: 0x8, addend: 0x0, symName: _sha256_easy_hash, symObjAddr: 0x9E4, symBinAddr: 0x100002B00, symSize: 0x88 }
+  - { offsetInCU: 0x49D, offset: 0x49D, size: 0x8, addend: 0x0, symName: _sha256_easy_hash_hex, symObjAddr: 0xA6C, symBinAddr: 0x100002B88, symSize: 0x7C }
+  - { offsetInCU: 0x4EB, offset: 0x4EB, size: 0x8, addend: 0x0, symName: _generateRandomKey, symObjAddr: 0xAE8, symBinAddr: 0x100002C04, symSize: 0xF4 }
+  - { offsetInCU: 0x53D, offset: 0x53D, size: 0x8, addend: 0x0, symName: _oneTransact, symObjAddr: 0xBDC, symBinAddr: 0x100002CF8, symSize: 0x44 }
+  - { offsetInCU: 0x57D, offset: 0x57D, size: 0x8, addend: 0x0, symName: _deposit, symObjAddr: 0xC20, symBinAddr: 0x100002D3C, symSize: 0x5C }
+  - { offsetInCU: 0x5AF, offset: 0x5AF, size: 0x8, addend: 0x0, symName: _withdraw, symObjAddr: 0xC7C, symBinAddr: 0x100002D98, symSize: 0x78 }
+  - { offsetInCU: 0x5E1, offset: 0x5E1, size: 0x8, addend: 0x0, symName: _transfer_funds_with_fee, symObjAddr: 0xCF4, symBinAddr: 0x100002E10, symSize: 0x9C }
+  - { offsetInCU: 0x62F, offset: 0x62F, size: 0x8, addend: 0x0, symName: _validate_transaction, symObjAddr: 0xD90, symBinAddr: 0x100002EAC, symSize: 0xB8 }
+  - { offsetInCU: 0x681, offset: 0x681, size: 0x8, addend: 0x0, symName: _create_block, symObjAddr: 0xE48, symBinAddr: 0x100002F64, symSize: 0xC8 }
+  - { offsetInCU: 0x6C5, offset: 0x6C5, size: 0x8, addend: 0x0, symName: _init_blockchain, symObjAddr: 0xF10, symBinAddr: 0x10000302C, symSize: 0x18 }
+  - { offsetInCU: 0x6E9, offset: 0x6E9, size: 0x8, addend: 0x0, symName: _add_to_blockchain, symObjAddr: 0xF28, symBinAddr: 0x100003044, symSize: 0x8C }
+  - { offsetInCU: 0x737, offset: 0x737, size: 0x8, addend: 0x0, symName: _update_index, symObjAddr: 0xFB4, symBinAddr: 0x1000030D0, symSize: 0x9C }
+  - { offsetInCU: 0x777, offset: 0x777, size: 0x8, addend: 0x0, symName: _create_sha, symObjAddr: 0x1050, symBinAddr: 0x10000316C, symSize: 0xCC }
+  - { offsetInCU: 0x7B7, offset: 0x7B7, size: 0x8, addend: 0x0, symName: _update_sha, symObjAddr: 0x111C, symBinAddr: 0x100003238, symSize: 0xC8 }
+  - { offsetInCU: 0x7F7, offset: 0x7F7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x11E4, symBinAddr: 0x100003300, symSize: 0x670 }
+...

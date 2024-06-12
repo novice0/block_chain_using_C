@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/admin/Documents/Programming/My Projects/dsa-mini-project/crypto-mini-project/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _save_chain, symObjAddr: 0x0, symBinAddr: 0x100002F64, symSize: 0x4 }
+  - { offsetInCU: 0xDA, offset: 0xDA, size: 0x8, addend: 0x0, symName: _save_chain, symObjAddr: 0x0, symBinAddr: 0x100002F64, symSize: 0x4 }
+  - { offsetInCU: 0xEF, offset: 0xEF, size: 0x8, addend: 0x0, symName: _init_walletlist, symObjAddr: 0x4, symBinAddr: 0x100002F68, symSize: 0x4C }
+  - { offsetInCU: 0x113, offset: 0x113, size: 0x8, addend: 0x0, symName: _iswalFull, symObjAddr: 0x50, symBinAddr: 0x100002FB4, symSize: 0x30 }
+  - { offsetInCU: 0x13B, offset: 0x13B, size: 0x8, addend: 0x0, symName: _add_wallet_to_list, symObjAddr: 0x80, symBinAddr: 0x100002FE4, symSize: 0x80 }
+  - { offsetInCU: 0x16E, offset: 0x16E, size: 0x8, addend: 0x0, symName: _init_userlist, symObjAddr: 0x100, symBinAddr: 0x100003064, symSize: 0x4C }
+  - { offsetInCU: 0x192, offset: 0x192, size: 0x8, addend: 0x0, symName: _isusersFull, symObjAddr: 0x14C, symBinAddr: 0x1000030B0, symSize: 0x30 }
+  - { offsetInCU: 0x1BA, offset: 0x1BA, size: 0x8, addend: 0x0, symName: _add_user_to_list, symObjAddr: 0x17C, symBinAddr: 0x1000030E0, symSize: 0x78 }
+  - { offsetInCU: 0x1EC, offset: 0x1EC, size: 0x8, addend: 0x0, symName: _validate_transaction, symObjAddr: 0x1F4, symBinAddr: 0x100003158, symSize: 0x9C }
+  - { offsetInCU: 0x23A, offset: 0x23A, size: 0x8, addend: 0x0, symName: _deposit, symObjAddr: 0x290, symBinAddr: 0x1000031F4, symSize: 0x60 }
+  - { offsetInCU: 0x26C, offset: 0x26C, size: 0x8, addend: 0x0, symName: _withdraw, symObjAddr: 0x2F0, symBinAddr: 0x100003254, symSize: 0x80 }
+  - { offsetInCU: 0x29E, offset: 0x29E, size: 0x8, addend: 0x0, symName: _transfer_funds_with_fee, symObjAddr: 0x370, symBinAddr: 0x1000032D4, symSize: 0xA8 }
+  - { offsetInCU: 0x2EC, offset: 0x2EC, size: 0x8, addend: 0x0, symName: _generateRandomKey, symObjAddr: 0x418, symBinAddr: 0x10000337C, symSize: 0xF4 }
+  - { offsetInCU: 0x33E, offset: 0x33E, size: 0x8, addend: 0x0, symName: _create_user, symObjAddr: 0x50C, symBinAddr: 0x100003470, symSize: 0x19C }
+  - { offsetInCU: 0x39A, offset: 0x39A, size: 0x8, addend: 0x0, symName: _display_menu, symObjAddr: 0x6A8, symBinAddr: 0x10000360C, symSize: 0x58 }
+  - { offsetInCU: 0x3AF, offset: 0x3AF, size: 0x8, addend: 0x0, symName: _press_any_key_to_continue, symObjAddr: 0x700, symBinAddr: 0x100003664, symSize: 0x4C }
+  - { offsetInCU: 0x3C4, offset: 0x3C4, size: 0x8, addend: 0x0, symName: _secure_string_compare, symObjAddr: 0x74C, symBinAddr: 0x1000036B0, symSize: 0xE8 }
+  - { offsetInCU: 0x440, offset: 0x440, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x834, symBinAddr: 0x100003798, symSize: 0x380 }
+...
